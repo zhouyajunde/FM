@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZYJyijian">
+            <connections>
+                <outlet property="content" destination="HsQ-us-uhT" id="2tn-dz-ruO"/>
+                <outlet property="tijiaoBtn" destination="jy8-g9-HrH" id="vIy-Sm-2rr"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tuijian_top1.png" translatesAutoresizingMaskIntoConstraints="NO" id="svE-48-dKn">
+                    <rect key="frame" x="15" y="136" width="290" height="140"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HsQ-us-uhT">
+                    <rect key="frame" x="15" y="136" width="290" height="140"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="140" id="ykd-Ma-o0A"/>
+                    </constraints>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您的反馈是飞扬前进的动力" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LVJ-Us-fu8">
+                    <rect key="frame" x="15" y="100" width="200" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="hw5-mx-EcX"/>
+                        <constraint firstAttribute="width" constant="200" id="ixt-pJ-WXL"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jy8-g9-HrH">
+                    <rect key="frame" x="15" y="311" width="290" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="kg5-Rn-RgZ"/>
+                    </constraints>
+                    <state key="normal" title="提交" backgroundImage="login_btn.png">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="tijiao:" destination="-1" eventType="touchUpInside" id="XlC-0R-kCj"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您也可以通过新浪微博反馈意见：@飞扬FM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tZm-qP-RPg">
+                    <rect key="frame" x="15" y="402" width="290" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="Pxx-d0-7Fv"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.1829358932" green="0.82291448519999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="如果您能提供电台直播资源或节目单，欢迎联系" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YUp-E5-pzP">
+                    <rect key="frame" x="15" y="432" width="290" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="KhP-fz-sMu"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.1829358932152495" green="0.82291448518020993" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请发送至邮箱：jiangzhe@feiyangfm.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cyq-S0-PuT">
+                    <rect key="frame" x="15" y="453" width="290" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="f6Q-aF-hmF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.1829358932" green="0.82291448519999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.20033051090000001" blue="0.2539716118" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="svE-48-dKn" firstAttribute="bottom" secondItem="HsQ-us-uhT" secondAttribute="bottom" id="0nh-ci-gVd"/>
+                <constraint firstItem="YUp-E5-pzP" firstAttribute="top" secondItem="tZm-qP-RPg" secondAttribute="bottom" constant="8" id="3ft-k2-sUp"/>
+                <constraint firstAttribute="trailing" secondItem="HsQ-us-uhT" secondAttribute="trailing" constant="15" id="8rh-aH-Nfu"/>
+                <constraint firstItem="tZm-qP-RPg" firstAttribute="trailing" secondItem="jy8-g9-HrH" secondAttribute="trailing" id="CSs-fH-gdD"/>
+                <constraint firstItem="svE-48-dKn" firstAttribute="leading" secondItem="HsQ-us-uhT" secondAttribute="leading" id="HUO-Dk-MMt"/>
+                <constraint firstAttribute="trailing" secondItem="cyq-S0-PuT" secondAttribute="trailing" constant="15" id="Khi-GI-qfp"/>
+                <constraint firstItem="jy8-g9-HrH" firstAttribute="trailing" secondItem="HsQ-us-uhT" secondAttribute="trailing" id="KsO-IC-paX"/>
+                <constraint firstItem="tZm-qP-RPg" firstAttribute="top" secondItem="jy8-g9-HrH" secondAttribute="bottom" constant="51" id="KvI-I7-aG1"/>
+                <constraint firstAttribute="trailing" secondItem="YUp-E5-pzP" secondAttribute="trailing" constant="15" id="MFe-ng-W8p"/>
+                <constraint firstItem="svE-48-dKn" firstAttribute="top" secondItem="HsQ-us-uhT" secondAttribute="top" id="MqV-Et-mf3"/>
+                <constraint firstItem="svE-48-dKn" firstAttribute="trailing" secondItem="HsQ-us-uhT" secondAttribute="trailing" id="Oti-iF-Ytb"/>
+                <constraint firstItem="jy8-g9-HrH" firstAttribute="leading" secondItem="HsQ-us-uhT" secondAttribute="leading" id="QVM-sp-web"/>
+                <constraint firstItem="HsQ-us-uhT" firstAttribute="top" secondItem="LVJ-Us-fu8" secondAttribute="bottom" constant="15" id="RWF-wl-5zw"/>
+                <constraint firstItem="jy8-g9-HrH" firstAttribute="top" secondItem="HsQ-us-uhT" secondAttribute="bottom" constant="35" id="Vqv-Dt-iTY"/>
+                <constraint firstItem="HsQ-us-uhT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="WNp-PA-UHb"/>
+                <constraint firstItem="cyq-S0-PuT" firstAttribute="top" secondItem="YUp-E5-pzP" secondAttribute="bottom" id="bM0-hf-Pkg"/>
+                <constraint firstItem="LVJ-Us-fu8" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="c0w-rm-jeh"/>
+                <constraint firstItem="cyq-S0-PuT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="sZO-Xs-uRU"/>
+                <constraint firstItem="YUp-E5-pzP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="x1G-dw-OH7"/>
+                <constraint firstItem="tZm-qP-RPg" firstAttribute="leading" secondItem="jy8-g9-HrH" secondAttribute="leading" id="yC2-0u-vMq"/>
+                <constraint firstItem="LVJ-Us-fu8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="znC-pu-9bS"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="284" y="227"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="login_btn.png" width="496" height="80"/>
+        <image name="tuijian_top1.png" width="600" height="110"/>
+    </resources>
+</document>

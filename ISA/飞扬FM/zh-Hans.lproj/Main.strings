@@ -1,0 +1,108 @@
+
+/* Class = "UIButton"; normalTitle = "直接收听"; ObjectID = "0KN-Ag-oyC"; */
+"0KN-Ag-oyC.normalTitle" = "直接收听";
+
+/* Class = "UINavigationItem"; title = "我的飞扬"; ObjectID = "0zy-d9-V7f"; */
+"0zy-d9-V7f.title" = "我的飞扬";
+
+/* Class = "UITextField"; placeholder = "请输入验证码"; ObjectID = "1p2-1g-UK8"; */
+"1p2-1g-UK8.placeholder" = "请输入验证码";
+
+/* Class = "UINavigationItem"; title = "注册"; ObjectID = "2MC-Yx-KUI"; */
+"2MC-Yx-KUI.title" = "注册";
+
+/* Class = "UITextField"; placeholder = "请输入密码"; ObjectID = "318-ZU-QXR"; */
+"318-ZU-QXR.placeholder" = "请输入密码";
+
+/* Class = "UINavigationItem"; title = "我的预约"; ObjectID = "4Ni-BF-BPt"; */
+"4Ni-BF-BPt.title" = "我的预约";
+
+/* Class = "UILabel"; text = "性别"; ObjectID = "5cR-f2-qE7"; */
+"5cR-f2-qE7.text" = "性别";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "7Z4-vf-NqN"; */
+"7Z4-vf-NqN.normalTitle" = "下一步";
+
+/* Class = "UINavigationItem"; title = "问卷调查"; ObjectID = "80d-2I-25D"; */
+"80d-2I-25D.title" = "问卷调查";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "AMa-1X-dgE"; */
+"AMa-1X-dgE.normalTitle" = "下一步";
+
+/* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "ArN-Sp-13E"; */
+"ArN-Sp-13E.normalTitle" = "获取验证码";
+
+/* Class = "UINavigationItem"; title = "修改密码"; ObjectID = "AzK-4t-1nU"; */
+"AzK-4t-1nU.title" = "修改密码";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "DRi-IH-3ow"; */
+"DRi-IH-3ow.normalTitle" = "下一步";
+
+/* Class = "UITextField"; text = "请输入手机号"; ObjectID = "HJw-VI-rtx"; */
+"HJw-VI-rtx.text" = "请输入手机号";
+
+/* Class = "UIButton"; normalTitle = "我是新用户"; ObjectID = "Hl8-Mo-pfX"; */
+"Hl8-Mo-pfX.normalTitle" = "我是新用户";
+
+/* Class = "UITextField"; text = "请输入昵称"; ObjectID = "Kps-b4-q3S"; */
+"Kps-b4-q3S.text" = "请输入昵称";
+
+/* Class = "UINavigationItem"; title = "礼品兑换"; ObjectID = "Ll6-YA-Fv9"; */
+"Ll6-YA-Fv9.title" = "礼品兑换";
+
+/* Class = "UINavigationItem"; title = "注册"; ObjectID = "MsN-aN-4c0"; */
+"MsN-aN-4c0.title" = "注册";
+
+/* Class = "UINavigationItem"; title = "找回密码"; ObjectID = "Q1V-c2-S9f"; */
+"Q1V-c2-S9f.title" = "找回密码";
+
+/* Class = "UINavigationItem"; title = "我的收藏"; ObjectID = "RQH-QY-gWu"; */
+"RQH-QY-gWu.title" = "我的收藏";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "TXr-88-zb0"; */
+"TXr-88-zb0.title" = "Item";
+
+/* Class = "UINavigationItem"; title = "更多设置"; ObjectID = "VDu-oA-eko"; */
+"VDu-oA-eko.title" = "更多设置";
+
+/* Class = "UINavigationItem"; title = "兑换记录"; ObjectID = "Ya2-yw-3bg"; */
+"Ya2-yw-3bg.title" = "兑换记录";
+
+/* Class = "UITextField"; placeholder = "请再次输入密码"; ObjectID = "ZOu-F8-Ut4"; */
+"ZOu-F8-Ut4.placeholder" = "请再次输入密码";
+
+/* Class = "UITextField"; placeholder = "请输入密码（*）"; ObjectID = "ZdG-vM-L3z"; */
+"ZdG-vM-L3z.placeholder" = "请输入密码（*）";
+
+/* Class = "UINavigationItem"; title = "找回密码"; ObjectID = "Zn7-LR-oTI"; */
+"Zn7-LR-oTI.title" = "找回密码";
+
+/* Class = "UINavigationItem"; title = "最近收听"; ObjectID = "Zq6-ck-65t"; */
+"Zq6-ck-65t.title" = "最近收听";
+
+/* Class = "UIButton"; normalTitle = "忘记密码"; ObjectID = "fRO-R1-ct2"; */
+"fRO-R1-ct2.normalTitle" = "忘记密码";
+
+/* Class = "UIBarButtonItem"; title = "取消"; ObjectID = "frz-G2-B2j"; */
+"frz-G2-B2j.title" = "取消";
+
+/* Class = "UIButton"; normalTitle = "QQ登录"; ObjectID = "hnd-2d-cFG"; */
+"hnd-2d-cFG.normalTitle" = "QQ登录";
+
+/* Class = "UILabel"; text = "年龄"; ObjectID = "ick-ws-MuJ"; */
+"ick-ws-MuJ.text" = "年龄";
+
+/* Class = "UINavigationItem"; title = "个人信息"; ObjectID = "nSf-k0-j1E"; */
+"nSf-k0-j1E.title" = "个人信息";
+
+/* Class = "UIButton"; normalTitle = "登录"; ObjectID = "oky-Nv-wLG"; */
+"oky-Nv-wLG.normalTitle" = "登录";
+
+/* Class = "UINavigationItem"; title = "定时关机"; ObjectID = "peD-p5-m0G"; */
+"peD-p5-m0G.title" = "定时关机";
+
+/* Class = "UITextField"; text = "请输入手机号"; ObjectID = "plM-YB-vfa"; */
+"plM-YB-vfa.text" = "请输入手机号";
+
+/* Class = "UINavigationItem"; title = "登录"; ObjectID = "scf-eb-Etw"; */
+"scf-eb-Etw.title" = "登录";

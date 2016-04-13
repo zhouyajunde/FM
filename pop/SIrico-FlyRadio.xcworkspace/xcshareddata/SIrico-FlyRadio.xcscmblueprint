@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A873D7155D605660D3E49E34CBB502F45E5B7970",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "7172e8d4-4017-714d-9b8d-dbb5faa3b606++666" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A873D7155D605660D3E49E34CBB502F45E5B7970" : 0,
+    "7172e8d4-4017-714d-9b8d-dbb5faa3b606++666" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E81F0E07-558D-4DE7-984A-71F67987EE96",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A873D7155D605660D3E49E34CBB502F45E5B7970" : "FY-IOS",
+    "7172e8d4-4017-714d-9b8d-dbb5faa3b606++666" : "FY-IOS\/SIrico-FlyRadio\/Vendor\/TPKeyboardAvoidingView\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SIrico-FlyRadio",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SIrico-FlyRadio.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/dery.yu@192.168.1.222\/svn\/yourmart",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7172e8d4-4017-714d-9b8d-dbb5faa3b606++666"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/kingxl\/FY-IOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A873D7155D605660D3E49E34CBB502F45E5B7970"
+    }
+  ]
+}

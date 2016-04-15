@@ -1,0 +1,44 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+// 1.日志开关
+#ifdef DEBUG
+#define NJLog(...) NSLog(__VA_ARGS__)
+#else
+#define NJLog(...)
+#endif
+
+// 2.判断是否为iOS7
+#define iOS7 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
+
+// 3.获得颜色
+#define NJColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+
+// 4.加载JSON对象
+#define NJJson(name) [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfURL:[[NSBundle mainBundle] URLForResource:@#name withExtension:nil]] options:NSJSONReadingAllowFragments error:nil]
+
+// 5.全局背景色
+#define NJGlobalBg [UIColor colorWithPatternImage:[UIImage imageNamed:@"tuijian_bg"]]
+
+// 6.是否为4英寸
+#define is4Inch ([UIScreen mainScreen].bounds.size.height == 568.0)
+
+
+// 7.是否为retina
+#define isRetina ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? ([[UIScreen mainScreen] currentMode].size.width == 640) : NO)
+
+
+#endif

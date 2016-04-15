@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="moreCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="114" height="141"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="114" height="141"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tuijian_top1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Njv-fR-VGv">
+                        <rect key="frame" x="0.0" y="0.0" width="114" height="141"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m6L-5v-s2c">
+                        <rect key="frame" x="0.0" y="111" width="114" height="30"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diantai_default.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Pq-Nv-win">
+                        <rect key="frame" x="0.0" y="0.0" width="114" height="111"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="2Pq-Nv-win" secondAttribute="height" multiplier="38:37" id="cFA-Dd-NBN"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zhibo" translatesAutoresizingMaskIntoConstraints="NO" id="wcZ-gy-EQH">
+                        <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="Njv-fR-VGv" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="0Ge-y4-iCz"/>
+                <constraint firstAttribute="trailing" secondItem="2Pq-Nv-win" secondAttribute="trailing" id="0bg-zR-EcJ"/>
+                <constraint firstItem="m6L-5v-s2c" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="2Nk-fZ-gn3"/>
+                <constraint firstItem="2Pq-Nv-win" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="36p-gk-RG5"/>
+                <constraint firstAttribute="trailing" secondItem="m6L-5v-s2c" secondAttribute="trailing" id="7c8-Ey-LMO"/>
+                <constraint firstItem="2Pq-Nv-win" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="8a9-OU-RSu"/>
+                <constraint firstAttribute="bottom" secondItem="Njv-fR-VGv" secondAttribute="bottom" id="BnW-nb-5hx"/>
+                <constraint firstAttribute="bottom" secondItem="m6L-5v-s2c" secondAttribute="bottom" id="Wz7-qr-6NO"/>
+                <constraint firstItem="m6L-5v-s2c" firstAttribute="top" secondItem="2Pq-Nv-win" secondAttribute="bottom" id="bKw-k4-ScM"/>
+                <constraint firstAttribute="trailing" secondItem="Njv-fR-VGv" secondAttribute="trailing" id="cVN-PQ-nbA"/>
+                <constraint firstItem="Njv-fR-VGv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="zgs-6S-Uu1"/>
+            </constraints>
+            <size key="customSize" width="105" height="111"/>
+            <connections>
+                <outlet property="diantailab" destination="m6L-5v-s2c" id="fPG-cj-HSC"/>
+                <outlet property="imgBac" destination="2Pq-Nv-win" id="6vQ-8P-qoA"/>
+            </connections>
+            <point key="canvasLocation" x="418" y="236.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="diantai_default.png" width="160" height="160"/>
+        <image name="tuijian_top1.png" width="600" height="110"/>
+        <image name="zhibo" width="54" height="54"/>
+    </resources>
+</document>
